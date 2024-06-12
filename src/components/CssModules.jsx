@@ -1,4 +1,4 @@
-import React from 'react';
+import classes from './CssModules.module.scss';
 
 export const CssModules = () => {
   return (

@@ -1,4 +1,5 @@
 .container {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,5 +21,9 @@
     border: none;
     border-radius: 5px;
     font-size: 18px;
-    cursor: pointer;
+    &:hover {
+        background-color: #46cdcf;
+        color: #fff;
+        cursor: pointer;
+    }
 }

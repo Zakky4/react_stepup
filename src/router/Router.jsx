@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "../Home";
 import { Page1Routes } from "./Page1Route";
 import { Page2Routes } from "./Page2Route";
+import { Page404 } from "../Page404";
 
 export const RouterComp = () => {
   return (
@@ -41,6 +42,9 @@ export const RouterComp = () => {
           </Switch>
         )}
       />
+      <Route path="*">
+        <Page404 />
+      </Route>
     </Switch>
   );
 };
